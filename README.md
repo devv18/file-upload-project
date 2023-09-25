@@ -63,8 +63,23 @@ register
 
 
 
+![Screenshot (1)](https://github.com/devv18/file-upload-project/assets/127303647/9215d68c-7c26-43aa-9d09-900fc53dc1ee)
 
 signin
 
+
+
+![Screenshot (2)](https://github.com/devv18/file-upload-project/assets/127303647/a3143cba-529f-4157-8176-765a637c6084)
+
+file upload template 
+
+
+
+
+![Screenshot (3)](https://github.com/devv18/file-upload-project/assets/127303647/3f840261-05de-4054-99de-cb9e628da3bb)
+
+after uploading files there is message 
+
+![Screenshot (4)](https://github.com/devv18/file-upload-project/assets/127303647/cc667348-e70c-4d6d-9633-26ee9ac65470)
 
 
