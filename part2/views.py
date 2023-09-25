@@ -49,7 +49,7 @@ from django.shortcuts import redirect
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import UploadedFile, File
-
+@login_required
 def fileupload(request):
     if request.method == 'POST':
         uploaded_files = request.FILES.getlist('files')
