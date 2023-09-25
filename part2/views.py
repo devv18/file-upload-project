@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 from django.shortcuts import render,redirect
@@ -49,7 +50,7 @@ from django.shortcuts import redirect
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from .models import UploadedFile, File
-@login_required
+@login_required(login_url='/signin/')
 def fileupload(request):
     if request.method == 'POST':
         uploaded_files = request.FILES.getlist('files')
